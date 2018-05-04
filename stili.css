@@ -1,5 +1,9 @@
 @CHARSET "ISO-8859-1";
 
+.link {
+	color: black;
+}
+
 .link1 {
 	color: red;
 }
@@ -14,6 +18,11 @@
 
 .link4 {
 	color: blue;
+}
+
+.header {
+	font-size: 9px;
+	color: red;
 }
 
 .footer {

@@ -5,4 +5,12 @@
 // echo var_dump ( $_POST );
 // echo var_dump ( $_COOKIE );
 ?>
+<html>
+<table style="width: 100%">
+	<tr>
+		<td align="left"><span class="header">Powered by sammat</span></td>
+	</tr>
+</table>
+</html>
+
 
