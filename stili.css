@@ -40,3 +40,11 @@ a {
 	height: 50px;
 	border: medium;
 }
+
+.access_denied {
+	color: red;
+	font-weight: bold;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}

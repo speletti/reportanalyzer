@@ -1,11 +1,19 @@
+<?php
+// echo var_dump ( $_SERVER );
+// echo var_dump ( $_REQUEST );
+// echo var_dump ( $_GET );
+// echo var_dump ( $_POST );
+// echo var_dump($_COOKIE);
+?>
 <html>
-<head>
-<title>Report analyzer</title>
-<link rel="stylesheet" type="text/css" href="stili.css">
-</head>
-<?php include 'header.php';?>
-<br>
-<?php include 'body.php';?>
-<br>
-<?php include 'footer.php';?>
+<?php
+$key = $_COOKIE["key"];
+
+if ($key == "24me22") {
+    echo "<script type=\"text/javascript\">window.location=\"home.php\"</script>";
+} else {
+    echo "<script type=\"text/javascript\">window.location=\"login.php\"</script>";
+}
+?>
+
 </html>
