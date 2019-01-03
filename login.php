@@ -3,7 +3,7 @@
 <title>Report analyzer</title>
 </head>
 <body>
-	<form action="checklogin.php" method="post">
+	<form action="session/Checklogin.php" method="post">
 		<table border="1">
 			<tr>
 				<td><span class="">Username</span></td>

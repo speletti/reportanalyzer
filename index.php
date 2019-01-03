@@ -5,15 +5,9 @@
 // echo var_dump ( $_POST );
 // echo var_dump($_COOKIE);
 ?>
-<html>
 <?php
-$key = $_COOKIE["key"];
-
-if ($key == "24me22") {
-    echo "<script type=\"text/javascript\">window.location=\"home.php\"</script>";
-} else {
-    echo "<script type=\"text/javascript\">window.location=\"login.php\"</script>";
-}
+include 'session/CheckSession.php';
+$session = new CheckSession();
+$session->check();
+echo "<script type=\"text/javascript\">window.location=\"home.php\"</script>";
 ?>
-
-</html>
